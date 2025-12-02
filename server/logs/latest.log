@@ -1,0 +1,1627 @@
+[18:54:32] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[18:54:32] [Server thread/INFO]: Loading properties
+[18:54:32] [Server thread/INFO]: Default game type: SURVIVAL
+[18:54:33] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[18:54:33] [Server thread/INFO]: Debug logging is disabled
+[18:54:33] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[18:54:33] [Server thread/INFO]: Server Ping Player Sample Count: 12
+
+[18:54:33] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:54:33] [Server thread/INFO]: Data value allowed items: 
+[18:54:33] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+
+[18:54:33] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+
+[18:54:33] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
+
+[18:54:33] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+[18:54:33] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+
+[18:54:33] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
+
+[18:54:33] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
+
+[18:54:33] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
+
+[18:54:33] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+
+[18:54:33] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[18:54:33] [Server thread/INFO]: Generating keypair
+[18:54:34] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[18:54:34] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[18:54:34] [Server thread/INFO]: Using default channel type
+[18:54:34] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[18:54:34] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
+[18:54:34] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
+[18:54:34] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
+[18:54:34] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
+[18:54:34] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:54:34] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:54:34] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[18:54:34] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[18:54:34] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:54:34] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[18:54:34] [Server thread/INFO]: Preparing level "world"
+[18:54:34] [Server thread/INFO]: -------- World Settings For [world] --------
+[18:54:34] [Server thread/INFO]: Mob Spawn Range: 4
+[18:54:34] [Server thread/INFO]: Anti X-Ray: true
+[18:54:34] [Server thread/INFO]: 	Engine Mode: 1
+[18:54:34] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[18:54:34] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[18:54:34] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:54:34] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:54:34] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:54:34] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:54:34] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:54:34] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:54:34] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:54:34] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:54:34] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:54:34] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[18:54:34] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[18:54:34] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[18:54:34] [Server thread/INFO]: Random Lighting Updates: false
+[18:54:34] [Server thread/INFO]: Structure Info Saving: true
+[18:54:34] [Server thread/INFO]: Sending up to 10 chunks per packet
+[18:54:34] [Server thread/INFO]: Max Entity Collisions: 8
+[18:54:34] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[18:54:34] [Server thread/INFO]: Max TNT Explosions: 100
+[18:54:34] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:54:34] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:54:34] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:54:34] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[18:54:34] [Server thread/INFO]: View Distance: 4
+[18:54:34] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:54:34] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:54:34] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[18:54:34] [Server thread/INFO]: Clear tick list: false
+[18:54:34] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:54:34] [Server thread/INFO]: -------- World Settings For [world] --------
+[18:54:34] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[18:54:34] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[18:54:34] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[18:54:34] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[18:54:34] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[18:54:34] [Server thread/INFO]: Water over lava flow speed: 5
+[18:54:34] [Server thread/INFO]: Fix TNT cannons: false
+[18:54:34] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[18:54:34] [Server thread/INFO]: Keep spawn chunk loaded: true
+[18:54:34] [Server thread/INFO]: World async lighting: false
+[18:54:34] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[18:54:34] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[18:54:34] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[18:54:34] [Server thread/INFO]: Mob Spawn Range: 4
+[18:54:34] [Server thread/INFO]: Anti X-Ray: true
+[18:54:34] [Server thread/INFO]: 	Engine Mode: 1
+[18:54:34] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[18:54:34] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[18:54:34] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:54:34] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:54:34] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:54:34] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:54:34] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:54:34] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:54:34] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:54:34] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:54:34] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:54:34] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[18:54:34] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[18:54:34] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[18:54:34] [Server thread/INFO]: Random Lighting Updates: false
+[18:54:34] [Server thread/INFO]: Structure Info Saving: true
+[18:54:34] [Server thread/INFO]: Sending up to 10 chunks per packet
+[18:54:34] [Server thread/INFO]: Max Entity Collisions: 8
+[18:54:34] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[18:54:34] [Server thread/INFO]: Max TNT Explosions: 100
+[18:54:34] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:54:34] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:54:34] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:54:34] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[18:54:34] [Server thread/INFO]: View Distance: 4
+[18:54:34] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:54:34] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:54:34] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[18:54:34] [Server thread/INFO]: Clear tick list: false
+[18:54:34] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:54:34] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[18:54:34] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[18:54:34] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[18:54:34] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[18:54:34] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[18:54:34] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[18:54:34] [Server thread/INFO]: Water over lava flow speed: 5
+[18:54:34] [Server thread/INFO]: Fix TNT cannons: false
+[18:54:34] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[18:54:34] [Server thread/INFO]: Keep spawn chunk loaded: true
+[18:54:34] [Server thread/INFO]: World async lighting: false
+[18:54:34] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[18:54:34] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[18:54:34] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[18:54:34] [Server thread/INFO]: Mob Spawn Range: 4
+[18:54:34] [Server thread/INFO]: Anti X-Ray: true
+[18:54:34] [Server thread/INFO]: 	Engine Mode: 1
+[18:54:34] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[18:54:34] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[18:54:34] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:54:34] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:54:34] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:54:34] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:54:34] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:54:34] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:54:34] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:54:34] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:54:34] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:54:34] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[18:54:34] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[18:54:34] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[18:54:34] [Server thread/INFO]: Random Lighting Updates: false
+[18:54:34] [Server thread/INFO]: Structure Info Saving: true
+[18:54:34] [Server thread/INFO]: Sending up to 10 chunks per packet
+[18:54:34] [Server thread/INFO]: Max Entity Collisions: 8
+[18:54:34] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[18:54:34] [Server thread/INFO]: Max TNT Explosions: 100
+[18:54:34] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:54:34] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:54:34] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:54:34] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[18:54:34] [Server thread/INFO]: View Distance: 4
+[18:54:34] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:54:34] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:54:34] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[18:54:34] [Server thread/INFO]: Clear tick list: false
+[18:54:34] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:54:34] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[18:54:34] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[18:54:34] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[18:54:34] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[18:54:34] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[18:54:34] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[18:54:34] [Server thread/INFO]: Water over lava flow speed: 5
+[18:54:34] [Server thread/INFO]: Fix TNT cannons: false
+[18:54:34] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[18:54:34] [Server thread/INFO]: Keep spawn chunk loaded: true
+[18:54:34] [Server thread/INFO]: World async lighting: false
+[18:54:34] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[18:54:34] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[18:54:34] [Server thread/INFO]: Preparing start region for level 0 (Seed: -7114837742513397910)
+[18:54:35] [Server thread/INFO]: Preparing spawn area: 60%
+[18:54:36] [Server thread/INFO]: Preparing start region for level 1 (Seed: -7114837742513397910)
+[18:54:37] [Server thread/INFO]: Preparing spawn area: 63%
+[18:54:37] [Server thread/INFO]: Preparing start region for level 2 (Seed: -7114837742513397910)
+[18:54:37] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
+[18:54:37] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+
+[18:54:37] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
+
+[18:54:37] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[18:54:37] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
+[18:54:37] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
+[18:54:38] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[18:54:38] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
+[18:54:38] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
+[18:54:38] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[18:54:38] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[18:54:39] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[18:54:39] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[18:54:39] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:54:39] [Server thread/INFO]: Done (5.115s)! For help, type "help" or "?"
+[18:54:39] [Server thread/INFO]: Timings Reset
+[18:54:40] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[21m[SimpleTpa] There is a new update available.[m
+
+[18:54:40] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] There is a new update available:[m
+
+[18:54:40] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
+
+[18:56:56] [Thread-7/INFO]: UUID of player jerry is 31133209-5316-305c-9a61-ddf61c0c9482
+[18:56:56] [Server thread/INFO]: jerry[/[0:0:0:0:0:0:0:1]:49848] logged in with entity id 374 at ([world]-2466.8901061472848, 59.0, -5750.234229706542)
+[18:57:00] [Thread-8/INFO]: UUID of player rodrii_ is f9b3cc3d-cf4c-3e3b-bceb-bcd7b54136ef
+[18:57:00] [Server thread/INFO]: rodrii_[/[0:0:0:0:0:0:0:1]:49852] logged in with entity id 501 at ([world]199.961227342551, 63.0, 32.2504252022893)
+[18:58:24] [Server thread/INFO]: jerry lost connection: Disconnected
+[18:58:24] [Server thread/INFO]: jerry left the game.
+[19:05:09] [Server thread/INFO]: rodrii_ lost connection: Disconnected
+[19:05:09] [Server thread/INFO]: rodrii_ left the game.
+[19:07:21] [Thread-10/INFO]: UUID of player rodrii_ is f9b3cc3d-cf4c-3e3b-bceb-bcd7b54136ef
+[19:07:21] [Server thread/INFO]: rodrii_[/[0:0:0:0:0:0:0:1]:35686] logged in with entity id 1728 at ([world]199.961227342551, 63.0, 32.2504252022893)
+[19:07:28] [Server thread/INFO]: rodrii_ lost connection: Disconnected
+[19:07:28] [Server thread/INFO]: rodrii_ left the game.
+[19:18:03] [Thread-11/INFO]: UUID of player rodrii_ is f9b3cc3d-cf4c-3e3b-bceb-bcd7b54136ef
+[19:18:03] [Server thread/INFO]: rodrii_[/[0:0:0:0:0:0:0:1]:56310] logged in with entity id 1735 at ([world]199.961227342551, 63.0, 32.2504252022893)
+[19:18:17] [Server thread/INFO]: rodrii_ issued server command: /clear
+[19:18:17] [Server thread/INFO]: [rodrii_: Cleared the inventory of rodrii_, removing 2 items]
+[19:18:28] [Server thread/INFO]: rodrii_ issued server command: //wand
+[19:18:42] [Server thread/INFO]: rodrii_ issued server command: //replace air
+[19:18:54] [Server thread/INFO]: rodrii_ issued server command: //wand
+[19:18:55] [Server thread/INFO]: rodrii_ issued server command: //wand
+[19:18:56] [Server thread/INFO]: rodrii_ issued server command: //replace air
+[19:19:05] [Server thread/INFO]: rodrii_ issued server command: //replace air
+[19:19:17] [Server thread/INFO]: rodrii_ issued server command: //replace stone
+[19:19:17] [Thread-12/INFO]: UUID of player nude_dude is 14404042-e794-326b-ae99-7e077748fd4e
+[19:19:17] [Server thread/INFO]: nude_dude[/[0:0:0:0:0:0:0:1]:46048] logged in with entity id 2050 at ([world]172.30000001192093, 64.0, 32.2886812852565)
+[19:19:22] [Server thread/INFO]: rodrii_ issued server command: //replace air stone
+[19:19:27] [Async Chat Thread - #0/INFO]: <rodrii_> yo jack[m
+
+[19:19:38] [Async Chat Thread - #0/INFO]: <rodrii_> did u see the change in title[m
+
+[19:19:39] [Async Chat Thread - #0/INFO]: <nude_dude> hey[m
+
+[19:19:43] [Async Chat Thread - #0/INFO]: <rodrii_> i wanna make sure it worked[m
+
+[19:19:43] [Async Chat Thread - #0/INFO]: <nude_dude> yes[m
+
+[19:20:07] [Server thread/INFO]: rodrii_ issued server command: /clear
+[19:20:07] [Server thread/INFO]: [rodrii_: Cleared the inventory of rodrii_, removing 3 items]
+[19:20:09] [Async Chat Thread - #0/INFO]: <nude_dude> it nice you can control the color?[m
+
+[19:21:02] [Server thread/INFO]: nude_dude issued server command: /home base
+[19:21:36] [Thread-13/INFO]: UUID of player diddybootyjackso is 47e11415-d229-3a5c-aa5e-b0e682b43f76
+[19:21:36] [Server thread/INFO]: diddybootyjackso[/[0:0:0:0:0:0:0:1]:45888] logged in with entity id 2595 at ([world]3116.9144056624373, 49.0, 926.0285950885361)
+[19:21:49] [Thread-14/INFO]: UUID of player dootybootyjackso is 1b906bd2-5d95-35c5-968f-5bfdb18b07ba
+[19:21:49] [Server thread/INFO]: dootybootyjackso[/[0:0:0:0:0:0:0:1]:50886] logged in with entity id 2824 at ([world]155.71255015557477, 63.0, 47.34436515144408)
+[19:24:56] [Server thread/INFO]: nude_dude issued server command: /home cave
+[19:25:06] [Server thread/WARN]: nude_dude moved wrongly!
+[19:26:39] [Server thread/INFO]: rodrii_ issued server command: /clear
+[19:26:39] [Server thread/INFO]: [rodrii_: Cleared the inventory of rodrii_, removing 9 items]
+[19:26:40] [Server thread/INFO]: rodrii_ issued server command: //wand
+[19:28:09] [Server thread/INFO]: dootybootyjackso was slain by Spider
+[19:28:15] [Server thread/INFO]: dootybootyjackso issued server command: /back
+[19:31:26] [Server thread/INFO]: rodrii_ issued server command: /give @p spawner
+[19:31:26] [Server thread/INFO]: [rodrii_: There is no such item with name minecraft:spawner]
+[19:31:39] [Server thread/INFO]: rodrii_ issued server command: /clear
+[19:31:39] [Server thread/INFO]: [rodrii_: Cleared the inventory of rodrii_, removing 9 items]
+[19:31:39] [Server thread/INFO]: rodrii_ issued server command: /clear
+[19:31:39] [Server thread/INFO]: [rodrii_: Could not clear the inventory of rodrii_, no items to remove]
+[19:31:43] [Server thread/INFO]: nude_dude issued server command: /home base
+[19:31:54] [Server thread/INFO]: rodrii_ issued server command: /summon
+[19:32:00] [Server thread/INFO]: nude_dude lost connection: Disconnected
+[19:32:00] [Server thread/INFO]: nude_dude left the game.
+[19:32:02] [Server thread/INFO]: rodrii_ issued server command: /give @p command_block
+[19:32:02] [Server thread/INFO]: [rodrii_: Given [Command Block] * 1 to rodrii_]
+[19:32:05] [Thread-16/INFO]: UUID of player nude_dude is 14404042-e794-326b-ae99-7e077748fd4e
+[19:32:05] [Server thread/INFO]: nude_dude[/[0:0:0:0:0:0:0:1]:47218] logged in with entity id 6234 at ([world]3118.1729029815906, 49.0, 920.5495873135587)
+[19:32:18] [Server thread/WARN]: Skipping Entity with id zombie
+[19:32:18] [Server thread/INFO]: [@: Unable to summon object]
+[19:32:23] [Server thread/WARN]: Skipping Entity with id zombie
+[19:32:23] [Server thread/INFO]: [@: Unable to summon object]
+[19:32:50] [Server thread/INFO]: [@: Object successfully summoned]
+[19:33:29] [Server thread/INFO]: rodrii_ issued server command: //wand
+[19:33:50] [Server thread/INFO]: rodrii_ issued server command: //replace air
+[19:34:01] [Server thread/INFO]: rodrii_ issued server command: //replace air
+[19:34:09] [Server thread/INFO]: rodrii_ issued server command: //replace air
+[19:34:22] [Server thread/INFO]: rodrii_ issued server command: //replace bedrock
+[19:34:26] [Server thread/INFO]: rodrii_ issued server command: //replace air bedrock
+[19:34:34] [Server thread/INFO]: rodrii_ issued server command: //replace air bedrock
+[19:34:35] [Server thread/INFO]: rodrii_ issued server command: //replace bedrock
+[19:34:44] [Server thread/INFO]: rodrii_ issued server command: //replace bedrock
+[19:34:45] [Server thread/INFO]: rodrii_ issued server command: //replace air bedrock
+[19:34:53] [Server thread/INFO]: rodrii_ issued server command: //replace air bedrock
+[19:34:54] [Server thread/INFO]: rodrii_ issued server command: //replace bedrock
+[19:35:04] [Server thread/INFO]: rodrii_ issued server command: //replace bedrock
+[19:35:05] [Server thread/INFO]: rodrii_ issued server command: //replace air bedrock
+[19:35:14] [Server thread/INFO]: rodrii_ issued server command: //replace bedrock
+[19:35:38] [Server thread/INFO]: rodrii_ issued server command: /gamemode sp
+[19:35:38] [Server thread/INFO]: [rodrii_: Set own game mode to Spectator Mode]
+[19:36:02] [Server thread/INFO]: rodrii_ issued server command: /tellraw @e {"text":"<nude_dude> shut the hell up","color":"white"}
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:02] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:11] [Server thread/INFO]: rodrii_ issued server command: /gamemode c
+[19:36:11] [Server thread/INFO]: [rodrii_: Set own game mode to Creative Mode]
+[19:36:31] [Server thread/INFO]: rodrii_ issued server command: /tellraw @e {"text":"<nude_dude> bum ahh bruh ill fight u come to my crib","color":"white"}
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:31] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: rodrii_ issued server command: /tellraw @e {"text":"<nude_dude> i got my ar on my wall u scared or smth","color":"white"}
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:53] [Server thread/INFO]: [rodrii_: That player cannot be found]
+[19:36:59] [Async Chat Thread - #1/INFO]: <rodrii_> nga sthu[m
+
+[19:37:06] [Async Chat Thread - #1/INFO]: <dootybootyjackso> whos this guy talking too[m
+
+[19:37:20] [Async Chat Thread - #1/INFO]: <rodrii_> idk[m
+
+[19:37:29] [Async Chat Thread - #1/INFO]: <rodrii_> hopefully no one with his short ahh[m
+
+[19:37:40] [Async Chat Thread - #1/INFO]: <nude_dude> rodrri[m
+
+[19:37:55] [Async Chat Thread - #1/INFO]: <rodrii_> ?[m
+
+[19:37:59] [Async Chat Thread - #1/INFO]: <nude_dude> you stop using command[m
+
+[19:38:02] [Async Chat Thread - #1/INFO]: <rodrii_> ?[m
+
+[19:38:04] [Async Chat Thread - #1/INFO]: <rodrii_> what[m
+
+[19:38:08] [Async Chat Thread - #1/INFO]: <dootybootyjackso> i think he got hacked[m
+
+[19:38:17] [Async Chat Thread - #1/INFO]: <nude_dude> yes i did by rodrigo[m
+
+[19:38:19] [Async Chat Thread - #1/INFO]: <dootybootyjackso> jacl dont type like that[m
+
+[19:38:30] [Server thread/INFO]: rodrii_ issued server command: /gamemode sp
+[19:38:30] [Server thread/INFO]: [rodrii_: Set own game mode to Spectator Mode]
+[19:38:35] [Server thread/INFO]: rodrii_ issued server command: /gamemode c
+[19:38:35] [Server thread/INFO]: [rodrii_: Set own game mode to Creative Mode]
+[19:38:45] [Async Chat Thread - #1/INFO]: <rodrii_> 181 63 47[m
+
+[19:38:51] [Server thread/INFO]: rodrii_ issued server command: /gamemode sp
+[19:38:51] [Server thread/INFO]: [rodrii_: Set own game mode to Spectator Mode]
+[19:38:53] [Server thread/INFO]: rodrii_ issued server command: /gamemode c
+[19:38:53] [Server thread/INFO]: [rodrii_: Set own game mode to Creative Mode]
+[19:39:02] [Server thread/INFO]: rodrii_ issued server command: /gamemode c
+[19:39:02] [Server thread/INFO]: [rodrii_: Set own game mode to Creative Mode]
+[19:39:04] [Async Chat Thread - #1/INFO]: <rodrii_> 181 63 47[m
+
+[19:39:14] [Async Chat Thread - #1/INFO]: <rodrii_> srry i need those cords for command blocks[m
+
+[19:40:23] [Server thread/INFO]: rodrii_ issued server command: /gamemode sp
+[19:40:23] [Server thread/INFO]: [rodrii_: Set own game mode to Spectator Mode]
+[19:40:24] [Server thread/INFO]: [@: Object successfully summoned]
+[19:40:32] [Server thread/INFO]: [@: Object successfully summoned]
+[19:40:33] [Server thread/INFO]: rodrii_ issued server command: /gamemode c
+[19:40:33] [Server thread/INFO]: [rodrii_: Set own game mode to Creative Mode]
+[19:40:39] [Server thread/INFO]: [@: Object successfully summoned]
+[19:40:47] [Server thread/INFO]: rodrii_ issued server command: /summon Zombie 181 63 47
+[19:40:47] [Server thread/INFO]: [rodrii_: Object successfully summoned]
+[19:40:47] [Server thread/INFO]: [@: Object successfully summoned]
+[19:40:50] [Server thread/INFO]: [@: Object successfully summoned]
+[19:40:54] [Server thread/INFO]: rodrii_ issued server command: /gamemode sp
+[19:40:54] [Server thread/INFO]: [rodrii_: Set own game mode to Spectator Mode]
+[19:40:55] [Server thread/INFO]: [@: Object successfully summoned]
+[19:40:58] [Server thread/INFO]: [@: Object successfully summoned]
+[19:41:01] [Server thread/INFO]: rodrii_ issued server command: /gamemode c
+[19:41:01] [Server thread/INFO]: [rodrii_: Set own game mode to Creative Mode]
+[19:41:03] [Server thread/INFO]: [@: Object successfully summoned]
+[19:41:03] [Server thread/INFO]: rodrii_ issued server command: /summon Zombie 181 63 47
+[19:41:03] [Server thread/INFO]: [rodrii_: Object successfully summoned]
+[19:41:06] [Server thread/INFO]: [@: Object successfully summoned]
+[19:41:10] [Server thread/INFO]: [@: Object successfully summoned]
+[19:41:13] [Server thread/INFO]: [@: Object successfully summoned]
+[19:41:18] [Server thread/INFO]: [@: Object successfully summoned]
+[19:41:21] [Server thread/INFO]: [@: Object successfully summoned]
+[19:41:26] [Server thread/INFO]: [@: Object successfully summoned]
+[19:41:29] [Server thread/INFO]: [@: Object successfully summoned]
+[19:41:33] [Server thread/INFO]: [@: Object successfully summoned]
+[19:41:36] [Server thread/INFO]: [@: Object successfully summoned]
+[19:41:41] [Server thread/INFO]: [@: Object successfully summoned]
+[19:41:43] [Server thread/INFO]: rodrii_ issued server command: /gamemode sp
+[19:41:43] [Server thread/INFO]: [rodrii_: Set own game mode to Spectator Mode]
+[19:41:44] [Server thread/INFO]: [@: Object successfully summoned]
+[19:41:49] [Server thread/INFO]: [@: Object successfully summoned]
+[19:41:52] [Server thread/INFO]: [@: Object successfully summoned]
+[19:41:55] [Server thread/INFO]: rodrii_ issued server command: /gamemode c
+[19:41:55] [Server thread/INFO]: [rodrii_: Set own game mode to Creative Mode]
+[19:41:56] [Server thread/INFO]: [@: Object successfully summoned]
+[19:41:59] [Server thread/INFO]: [@: Object successfully summoned]
+[19:42:07] [Server thread/INFO]: [@: Object successfully summoned]
+[19:42:16] [Server thread/INFO]: rodrii_ issued server command: /gamemode sp
+[19:42:16] [Server thread/INFO]: [rodrii_: Set own game mode to Spectator Mode]
+[19:42:20] [Server thread/INFO]: rodrii_ issued server command: /gamemode c
+[19:42:20] [Server thread/INFO]: [rodrii_: Set own game mode to Creative Mode]
+[19:42:58] [Async Chat Thread - #2/INFO]: <rodrii_> guys should the community spanwer have a price to be able to use it for a certain amount of time or[m
+
+[19:43:00] [Async Chat Thread - #2/INFO]: <rodrii_> not?[m
+
+[19:43:48] [Server thread/INFO]: rodrii_ lost connection: Disconnected
+[19:43:48] [Server thread/INFO]: rodrii_ left the game.
+[19:43:58] [Thread-17/INFO]: UUID of player rodrii_ is f9b3cc3d-cf4c-3e3b-bceb-bcd7b54136ef
+[19:43:58] [Server thread/INFO]: rodrii_[/[0:0:0:0:0:0:0:1]:59704] logged in with entity id 8989 at ([world]180.37647379632227, 63.0, 47.65823042435933)
+[19:44:56] [Server thread/INFO]: dootybootyjackso lost connection: Disconnected
+[19:44:56] [Server thread/INFO]: dootybootyjackso left the game.
+[19:45:01] [Async Chat Thread - #3/INFO]: <rodrii_> well im make it free since im nice ig[m
+
+[19:45:34] [Server thread/INFO]: rodrii_ issued server command: /help
+[19:45:40] [Server thread/INFO]: rodrii_ issued server command: /help 1
+[19:45:44] [Server thread/INFO]: rodrii_ issued server command: /help 2
+[19:45:47] [Server thread/INFO]: rodrii_ issued server command: /help 3
+[19:45:50] [Server thread/INFO]: rodrii_ issued server command: /help 4
+[19:45:53] [Server thread/INFO]: rodrii_ issued server command: /help 5
+[19:45:57] [Async Chat Thread - #3/INFO]: <rodrii_> 6[m
+
+[19:46:02] [Server thread/INFO]: rodrii_ issued server command: /help 6
+[19:46:08] [Server thread/INFO]: rodrii_ issued server command: /help 7
+[19:46:12] [Server thread/INFO]: rodrii_ issued server command: /help 8
+[19:46:17] [Server thread/INFO]: rodrii_ issued server command: /help 9
+[19:46:21] [Server thread/INFO]: rodrii_ issued server command: /help 10
+[19:46:30] [Server thread/INFO]: rodrii_ issued server command: /ban-ip
+[19:46:45] [Server thread/INFO]: rodrii_ issued server command: /help 11
+[19:46:50] [Server thread/INFO]: rodrii_ issued server command: /cs
+[19:46:56] [Server thread/INFO]: rodrii_ issued server command: /clone
+[19:47:06] [Server thread/INFO]: rodrii_ issued server command: /help 12
+[19:47:10] [Server thread/INFO]: rodrii_ issued server command: /help 13
+[19:47:19] [Server thread/INFO]: rodrii_ issued server command: /help 14
+[19:47:26] [Server thread/INFO]: rodrii_ issued server command: /help 15
+[19:47:31] [Server thread/INFO]: rodrii_ issued server command: /help 16
+[19:47:43] [Server thread/INFO]: rodrii_ issued server command: /pardon
+[19:47:56] [Server thread/INFO]: rodrii_ issued server command: /help 17
+[19:48:16] [Server thread/INFO]: rodrii_ issued server command: /help 18
+[19:48:26] [Server thread/INFO]: rodrii_ issued server command: /save-all
+[19:48:26] [Server thread/INFO]: [rodrii_: Saved the world]
+[19:48:28] [Thread-18/INFO]: UUID of player dootybootyjackso is 1b906bd2-5d95-35c5-968f-5bfdb18b07ba
+[19:48:28] [Server thread/INFO]: dootybootyjackso[/[0:0:0:0:0:0:0:1]:42510] logged in with entity id 9350 at ([world]69.69999998807907, 69.0, -110.2859733578528)
+[19:48:34] [Server thread/INFO]: rodrii_ issued server command: /save-on
+[19:48:34] [Server thread/INFO]: [rodrii_: Saving is already turned on.]
+[19:48:44] [Server thread/INFO]: rodrii_ issued server command: /help 19
+[19:48:59] [Server thread/INFO]: rodrii_ issued server command: /help 20
+[19:49:10] [Server thread/INFO]: rodrii_ issued server command: /help 21
+[19:49:31] [Async Chat Thread - #4/INFO]: <dootybootyjackso> jack[m
+
+[19:49:43] [Async Chat Thread - #4/INFO]: <nude_dude> what[m
+
+[19:49:45] [Server thread/INFO]: rodrii_ issued server command: /help 22
+[19:49:51] [Server thread/INFO]: rodrii_ issued server command: /tps
+[19:49:56] [Async Chat Thread - #4/INFO]: <diddybootyjackso> no[m
+
+[19:49:57] [Async Chat Thread - #4/INFO]: <dootybootyjackso> u get ur stuff back?[m
+
+[19:50:07] [Server thread/INFO]: rodrii_ issued server command: /help 23
+[19:50:14] [Async Chat Thread - #4/INFO]: <nude_dude> no i made new armor[m
+
+[19:50:22] [Async Chat Thread - #4/INFO]: <diddybootyjackso> e[m
+
+[19:50:23] [Thread-19/INFO]: UUID of player grizzy_ is 62c9e2c3-136f-3515-a72c-123904f9710a
+[19:50:24] [Server thread/INFO]: grizzy_[/[0:0:0:0:0:0:0:1]:60328] logged in with entity id 9827 at ([world]520.9137357802986, 70.0, -226.8042836081975)
+[19:50:26] [Server thread/INFO]: rodrii_ issued server command: /whitelist
+[19:50:28] [Async Chat Thread - #4/INFO]: <dootybootyjackso> say ong[m
+
+[19:50:30] [Server thread/INFO]: nude_dude issued server command: /home spawn
+[19:50:47] [Async Chat Thread - #4/INFO]: <dootybootyjackso> cs i hid it came back it wasnt even there no more[m
+
+[19:50:51] [Server thread/INFO]: diddybootyjackso issued server command: /tpa nude_dude
+[19:51:02] [Thread-20/INFO]: UUID of player lamm is 5cb39085-071d-31e4-9b35-9cf0f1e7f041
+[19:51:02] [Server thread/INFO]: lamm[/[0:0:0:0:0:0:0:1]:47868] logged in with entity id 10108 at ([world]-402.30000001192093, 16.0, 201.38279729653368)
+[19:51:02] [Server thread/INFO]: nude_dude issued server command: /accept
+[19:51:12] [Server thread/WARN]: diddybootyjackso moved wrongly!
+[19:51:12] [Server thread/INFO]: dootybootyjackso was slain by Zombie
+[19:51:24] [Server thread/INFO]: dootybootyjackso issued server command: /back
+[19:51:29] [Server thread/INFO]: rodrii_ issued server command: /title @a title i
+[19:51:29] [Server thread/INFO]: [rodrii_: Title command successfully executed]
+[19:51:29] [Server thread/INFO]: [rodrii_: Title command successfully executed]
+[19:51:29] [Server thread/INFO]: [rodrii_: Title command successfully executed]
+[19:51:29] [Server thread/INFO]: [rodrii_: Title command successfully executed]
+[19:51:29] [Server thread/INFO]: [rodrii_: Title command successfully executed]
+[19:51:29] [Server thread/INFO]: [rodrii_: Title command successfully executed]
+[19:51:38] [Async Chat Thread - #4/INFO]: <grizzy_> i[m
+
+[19:51:39] [Server thread/INFO]: dootybootyjackso was slain by Zombie
+[19:51:48] [Server thread/INFO]: dootybootyjackso issued server command: /back
+[19:51:52] [Async Chat Thread - #4/INFO]: <grizzy_> curse of rah[m
+
+[19:51:57] [Server thread/INFO]: dootybootyjackso lost connection: Disconnected
+[19:51:57] [Server thread/INFO]: dootybootyjackso left the game.
+[19:51:58] [Server thread/INFO]: rodrii_ issued server command: /title @a title rah
+[19:51:58] [Server thread/INFO]: [rodrii_: Title command successfully executed]
+[19:51:58] [Server thread/INFO]: [rodrii_: Title command successfully executed]
+[19:51:58] [Server thread/INFO]: [rodrii_: Title command successfully executed]
+[19:51:58] [Server thread/INFO]: [rodrii_: Title command successfully executed]
+[19:51:58] [Server thread/INFO]: [rodrii_: Title command successfully executed]
+[19:52:02] [Thread-21/INFO]: UUID of player dootybootyjackso is 1b906bd2-5d95-35c5-968f-5bfdb18b07ba
+[19:52:02] [Server thread/INFO]: dootybootyjackso[/[0:0:0:0:0:0:0:1]:54174] logged in with entity id 10595 at ([world]90.3495774862833, 72.0, -51.00858457639657)
+[19:52:33] [Server thread/INFO]: rodrii_ issued server command: /title nude_dude title shut the hell up
+[19:52:33] [Server thread/INFO]: [rodrii_: Invalid json: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 7]
+[19:52:42] [Server thread/INFO]: dootybootyjackso lost connection: Disconnected
+[19:52:42] [Server thread/INFO]: dootybootyjackso left the game.
+[19:52:45] [Server thread/INFO]: rodrii_ issued server command: /title rodrii_ title shut the hell up
+[19:52:45] [Server thread/INFO]: [rodrii_: Invalid json: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 7]
+[19:52:58] [Server thread/INFO]: rodrii_ issued server command: /title @p title i
+[19:52:58] [Server thread/INFO]: [rodrii_: Title command successfully executed]
+[19:53:07] [Server thread/INFO]: rodrii_ issued server command: /title diddybootyjackso title i
+[19:53:07] [Server thread/INFO]: [rodrii_: Title command successfully executed]
+[19:53:25] [Server thread/INFO]: rodrii_ issued server command: /title rodrii_ title i
+[19:53:25] [Server thread/INFO]: [rodrii_: Title command successfully executed]
+[19:53:32] [Server thread/INFO]: rodrii_ issued server command: /title nude_dude title i
+[19:53:32] [Server thread/INFO]: [rodrii_: Title command successfully executed]
+[19:53:40] [Async Chat Thread - #5/INFO]: <rodrii_> i was testing stuff mb mb[m
+
+[19:53:44] [Server thread/INFO]: rodrii_ issued server command: /clear
+[19:53:44] [Server thread/INFO]: [rodrii_: Cleared the inventory of rodrii_, removing 12 items]
+[19:55:19] [Server thread/INFO]: diddybootyjackso issued server command: /homes
+[19:55:26] [Server thread/INFO]: rodrii_ issued server command: /clear
+[19:55:26] [Server thread/INFO]: [rodrii_: Cleared the inventory of rodrii_, removing 5 items]
+[19:55:30] [Server thread/INFO]: diddybootyjackso issued server command: /home portal
+[19:55:55] [Server thread/INFO]: diddybootyjackso issued server command: /home port
+[19:56:01] [Server thread/INFO]: rodrii_ issued server command: /give @p command_block
+[19:56:01] [Server thread/INFO]: [rodrii_: Given [Command Block] * 1 to rodrii_]
+[19:56:16] [Server thread/INFO]: grizzy_ lost connection: Disconnected
+[19:56:16] [Server thread/INFO]: grizzy_ left the game.
+[19:57:48] [Async Chat Thread - #6/INFO]: <rodrii_> 181 54 54[m
+
+[19:58:07] [Server thread/INFO]: [@: 1 blocks filled]
+[19:58:36] [Async Chat Thread - #6/INFO]: <nude_dude> looks nice good job[m
+
+[19:58:52] [Async Chat Thread - #6/INFO]: <rodrii_> ya i got some skills[m
+
+[19:59:02] [Server thread/INFO]: diddybootyjackso issued server command: /home base
+[19:59:02] [Async Chat Thread - #6/INFO]: <rodrii_> but i almost never use them in survival[m
+
+[20:00:12] [Thread-23/INFO]: UUID of player Steve is 5627dd98-e6be-3c21-b8a8-e92344183641
+[20:00:12] [Server thread/INFO]: Steve[/[0:0:0:0:0:0:0:1]:49102] logged in with entity id 14656 at ([world]-137.70007041403673, 5.0, 107.33158342114139)
+[20:00:15] [Async Chat Thread - #7/INFO]: <nude_dude> rodri help me[m
+
+[20:00:21] [Async Chat Thread - #7/INFO]: <nude_dude> im down here[m
+
+[20:00:30] [Async Chat Thread - #7/INFO]: <rodrii_> twin[m
+
+[20:00:34] [Async Chat Thread - #7/INFO]: <nude_dude> sorry[m
+
+[20:00:35] [Async Chat Thread - #7/INFO]: <rodrii_> why r u selling[m
+
+[20:00:43] [Server thread/INFO]: rodrii_ issued server command: /tp nude_dude @p
+[20:00:43] [Server thread/INFO]: [rodrii_: Teleported nude_dude to rodrii_]
+[20:00:46] [Thread-24/INFO]: UUID of player grizzy_ is 62c9e2c3-136f-3515-a72c-123904f9710a
+[20:00:46] [Server thread/INFO]: grizzy_[/[0:0:0:0:0:0:0:1]:37264] logged in with entity id 14802 at ([world]523.2648452128951, 69.0, -226.33465981236128)
+[20:00:57] [Async Chat Thread - #7/INFO]: <nude_dude> can i test it[m
+
+[20:01:02] [Async Chat Thread - #7/INFO]: <rodrii_> in a min[m
+
+[20:01:05] [Async Chat Thread - #7/INFO]: <nude_dude> ok[m
+
+[20:01:18] [Server thread/INFO]: rodrii_ issued server command: /unhand
+[20:01:36] [Server thread/INFO]: nude_dude issued server command: /tpa grizzy_
+[20:01:42] [Server thread/INFO]: grizzy_ issued server command: /accept
+[20:01:43] [Server thread/INFO]: rodrii_ issued server command: /clear
+[20:01:43] [Server thread/INFO]: [rodrii_: Cleared the inventory of rodrii_, removing 10 items]
+[20:01:46] [Server thread/INFO]: [@: 1 blocks filled]
+[20:01:52] [Server thread/INFO]: [@: Object successfully summoned]
+[20:02:00] [Server thread/INFO]: [@: Object successfully summoned]
+[20:02:08] [Server thread/INFO]: [@: Object successfully summoned]
+[20:02:15] [Server thread/INFO]: [@: Object successfully summoned]
+[20:02:23] [Server thread/INFO]: [@: Object successfully summoned]
+[20:02:27] [Server thread/INFO]: [@: 1 blocks filled]
+[20:02:31] [Server thread/INFO]: nude_dude issued server command: /home spawn
+[20:02:44] [Server thread/WARN]: nude_dude moved too quickly! 0.2189287650373899,0.0,-15.01291873564189 (0.2189287650373899, 0.0, -15.01291873564189)
+[20:02:50] [Server thread/WARN]: nude_dude moved too quickly! -0.6711532170535861,0.0,-15.764908456025893 (-0.6711532170535861, 0.0, -15.764908456025893)
+[20:02:51] [Server thread/INFO]: nude_dude lost connection: Disconnected
+[20:02:51] [Server thread/INFO]: nude_dude left the game.
+[20:03:00] [Thread-25/INFO]: UUID of player nude_dude is 14404042-e794-326b-ae99-7e077748fd4e
+[20:03:00] [Server thread/INFO]: nude_dude[/[0:0:0:0:0:0:0:1]:42602] logged in with entity id 15430 at ([world]179.0831054989822, 63.0, 43.34729191323124)
+[20:03:04] [Server thread/INFO]: rodrii_ issued server command: /clear
+[20:03:04] [Server thread/INFO]: [rodrii_: Cleared the inventory of rodrii_, removing 7 items]
+[20:03:18] [Server thread/INFO]: grizzy_ fell from a high place
+[20:03:20] [Server thread/INFO]: lamm lost connection: Disconnected
+[20:03:20] [Server thread/INFO]: lamm left the game.
+[20:03:27] [Async Chat Thread - #8/INFO]: <rodrii_> go[m
+
+[20:03:29] [Async Chat Thread - #8/INFO]: <rodrii_> try it[m
+
+[20:03:36] [Async Chat Thread - #8/INFO]: <rodrii_> give it a sec[m
+
+[20:03:39] [Server thread/INFO]: grizzy_ issued server command: /back
+[20:03:42] [Server thread/INFO]: [@: 1 blocks filled]
+[20:03:42] [Server thread/INFO]: [@: Object successfully summoned]
+[20:03:48] [Server thread/INFO]: [@: Object successfully summoned]
+[20:03:54] [Server thread/INFO]: [@: Object successfully summoned]
+[20:04:00] [Server thread/INFO]: [@: Object successfully summoned]
+[20:04:06] [Server thread/INFO]: [@: Object successfully summoned]
+[20:04:12] [Server thread/INFO]: [@: Object successfully summoned]
+[20:04:18] [Server thread/INFO]: [@: Object successfully summoned]
+[20:04:23] [Server thread/INFO]: [@: Object successfully summoned]
+[20:04:28] [Server thread/INFO]: [@: Object successfully summoned]
+[20:04:31] [Server thread/INFO]: rodrii_ issued server command: /clear
+[20:04:31] [Server thread/INFO]: [rodrii_: Cleared the inventory of rodrii_, removing 5 items]
+[20:04:32] [Server thread/INFO]: [@: Object successfully summoned]
+[20:04:37] [Server thread/INFO]: [@: Object successfully summoned]
+[20:04:41] [Server thread/INFO]: [@: Object successfully summoned]
+[20:04:42] [Server thread/INFO]: diddybootyjackso lost connection: Disconnected
+[20:04:42] [Server thread/INFO]: diddybootyjackso left the game.
+[20:04:46] [Server thread/INFO]: [@: Object successfully summoned]
+[20:04:47] [Server thread/INFO]: [@: 1 blocks filled]
+[20:04:52] [Async Chat Thread - #9/INFO]: <rodrii_> i stopped it[m
+
+[20:04:55] [Async Chat Thread - #9/INFO]: <rodrii_> anyways[m
+
+[20:05:06] [Async Chat Thread - #9/INFO]: <rodrii_> i still got some stuff to do for the thing[m
+
+[20:05:11] [Async Chat Thread - #9/INFO]: <rodrii_> which is why its public tmr[m
+
+[20:05:15] [Async Chat Thread - #9/INFO]: <nude_dude> ok its nice[m
+
+[20:05:18] [Server thread/INFO]: nude_dude lost connection: Disconnected
+[20:05:18] [Server thread/INFO]: nude_dude left the game.
+[20:05:25] [Server thread/INFO]: rodrii_ issued server command: /clear
+[20:05:25] [Server thread/INFO]: [rodrii_: Cleared the inventory of rodrii_, removing 2 items]
+[20:05:29] [Server thread/INFO]: rodrii_ issued server command: /clear
+[20:05:29] [Server thread/INFO]: [rodrii_: Cleared the inventory of rodrii_, removing 4 items]
+[20:05:38] [Server thread/INFO]: grizzy_ lost connection: Disconnected
+[20:05:38] [Server thread/INFO]: grizzy_ left the game.
+[20:06:02] [Server thread/INFO]: rodrii_ lost connection: Disconnected
+[20:06:02] [Server thread/INFO]: rodrii_ left the game.
+[20:06:05] [Server thread/INFO]: Steve lost connection: Disconnected
+[20:06:05] [Server thread/INFO]: Steve left the game.
+[20:13:19] [Thread-26/INFO]: UUID of player Kimitra is 9c2c1fa9-ab49-3ba5-9557-0e073e657a43
+[20:13:20] [Server thread/INFO]: Kimitra[/[0:0:0:0:0:0:0:1]:49036] logged in with entity id 16939 at ([world]1132.4648113838966, 58.5, 1246.9177990380585)
+[20:13:40] [Thread-27/INFO]: UUID of player Steve is 5627dd98-e6be-3c21-b8a8-e92344183641
+[20:13:40] [Server thread/INFO]: Steve[/[0:0:0:0:0:0:0:1]:57864] logged in with entity id 17105 at ([world]-133.02113678682036, 4.0, 55.571208722610265)
+[20:14:13] [Server thread/INFO]: Steve issued server command: /home BASE
+[20:14:36] [Thread-28/INFO]: UUID of player Addi is 40a70f31-e329-3553-a4de-d44bcad58e7c
+[20:14:36] [Server thread/INFO]: Addi[/[0:0:0:0:0:0:0:1]:60614] logged in with entity id 17526 at ([world]329.30000001192093, 64.0, -215.07289788399305)
+[20:16:45] [Thread-29/INFO]: UUID of player jerry is 31133209-5316-305c-9a61-ddf61c0c9482
+[20:16:46] [Server thread/INFO]: jerry[/[0:0:0:0:0:0:0:1]:53272] logged in with entity id 17864 at ([world]-2466.7713635273903, 59.0, -5751.174041809421)
+[20:19:21] [Thread-30/INFO]: UUID of player dootybootyjackso is 1b906bd2-5d95-35c5-968f-5bfdb18b07ba
+[20:19:21] [Server thread/INFO]: dootybootyjackso[/[0:0:0:0:0:0:0:1]:36000] logged in with entity id 19023 at ([world]87.02196369666913, 72.0, -48.69999998807907)
+[20:19:30] [Thread-31/INFO]: UUID of player lamm is 5cb39085-071d-31e4-9b35-9cf0f1e7f041
+[20:19:30] [Server thread/INFO]: lamm[/[0:0:0:0:0:0:0:1]:35608] logged in with entity id 19396 at ([world]-402.69999998807907, 16.0, 318.40758839841726)
+[20:20:51] [Server thread/INFO]: Kimitra issued server command: /home :3
+[20:21:04] [Server thread/WARN]: lamm moved wrongly!
+[20:23:59] [Server thread/WARN]: Kimitra moved too quickly! 11.863222421338435,-0.022881416667644316,10.018366681340865 (11.863222421338435, -0.022881416667644316, 10.018366681340865)
+[20:24:38] [Server thread/INFO]: Addi fell from a high place
+[20:25:42] [Server thread/INFO]: jerry issued server command: /home jerry
+[20:27:20] [Server thread/INFO]: Kimitra issued server command: /home mine
+[20:27:32] [Server thread/INFO]: Steve lost connection: Disconnected
+[20:27:32] [Server thread/INFO]: Steve left the game.
+[20:29:06] [Server thread/INFO]: lamm issued server command: /home base
+[20:29:33] [Server thread/INFO]: Kimitra lost connection: Disconnected
+[20:29:33] [Server thread/INFO]: Kimitra left the game.
+[20:30:59] [Thread-33/INFO]: UUID of player Kimitra is 9c2c1fa9-ab49-3ba5-9557-0e073e657a43
+[20:30:59] [Server thread/INFO]: Kimitra[/[0:0:0:0:0:0:0:1]:59308] logged in with entity id 24697 at ([world]1132.6764572769941, 58.0, 1250.7414273275288)
+[20:32:24] [Server thread/INFO]: Addi was slain by Enderman
+[20:32:26] [Server thread/INFO]: lamm issued server command: /home s
+[20:32:30] [Server thread/INFO]: Addi issued server command: /back
+[20:35:32] [Server thread/INFO]: Kimitra lost connection: Disconnected
+[20:35:32] [Server thread/INFO]: Kimitra left the game.
+[20:35:52] [Server thread/INFO]: Addi lost connection: Disconnected
+[20:35:52] [Server thread/INFO]: Addi left the game.
+[20:36:11] [Server thread/INFO]: dootybootyjackso fell from a high place
+[20:36:17] [Server thread/INFO]: dootybootyjackso issued server command: /back
+[20:36:30] [Thread-34/INFO]: UUID of player Kimitra is 9c2c1fa9-ab49-3ba5-9557-0e073e657a43
+[20:36:30] [Server thread/INFO]: Kimitra[/[0:0:0:0:0:0:0:1]:42006] logged in with entity id 27732 at ([world]1130.699999988079, 49.0, 1260.300000011921)
+[20:36:39] [Server thread/INFO]: dootybootyjackso issued server command: /tpa lamm
+[20:38:15] [Thread-35/INFO]: UUID of player buttlicker6000 is c04f31ea-8b7f-38be-b9d5-2486edf17377
+[20:38:15] [Server thread/INFO]: buttlicker6000[/[0:0:0:0:0:0:0:1]:60784] logged in with entity id 28177 at ([world]175.300000011921, 81.0, -294.30000001192093)
+[20:47:44] [Server thread/INFO]: lamm issued server command: /home base
+[20:48:28] [Server thread/INFO]: dootybootyjackso issued server command: /home jack
+[20:48:49] [Server thread/INFO]: dootybootyjackso issued server command: /home jack
+[20:48:57] [Server thread/INFO]: dootybootyjackso tried to swim in lava
+[20:49:46] [Server thread/INFO]: buttlicker6000 issued server command: /home fart
+[20:50:14] [Thread-36/INFO]: UUID of player Addi is 40a70f31-e329-3553-a4de-d44bcad58e7c
+[20:50:14] [Server thread/INFO]: Addi[/[0:0:0:0:0:0:0:1]:59682] logged in with entity id 33661 at ([world]476.5042907451583, 57.0, -255.16107182741692)
+[20:50:15] [Server thread/INFO]: lamm issued server command: /tps bean
+[20:50:23] [Server thread/INFO]: lamm issued server command: /tpa bean
+[20:51:07] [Server thread/INFO]: Addi was slain by Zombie
+[20:51:14] [Server thread/INFO]: Addi issued server command: /back
+[20:51:42] [Server thread/INFO]: lamm issued server command: /tpa doodybootyjackso
+[20:52:52] [Server thread/INFO]: lamm issued server command: /tpa dootybootyjackso
+[20:53:00] [Server thread/INFO]: dootybootyjackso issued server command: /accept
+[20:53:17] [Server thread/INFO]: Addi was slain by Zombie
+[20:53:17] [Server thread/INFO]: lamm issued server command: /home s
+[20:53:23] [Server thread/INFO]: Addi issued server command: /back
+[20:53:39] [Server thread/INFO]: Addi was slain by Zombie
+[20:53:46] [Server thread/INFO]: Addi issued server command: /back
+[20:53:46] [Server thread/INFO]: buttlicker6000 issued server command: /home buttlicker
+[20:53:47] [Server thread/INFO]: lamm issued server command: /home base
+[20:54:01] [Server thread/INFO]: dootybootyjackso issued server command: /home jack
+[20:54:09] [Server thread/INFO]: dootybootyjackso tried to swim in lava
+[20:54:22] [Server thread/INFO]: dootybootyjackso issued server command: /home jack
+[20:54:29] [Server thread/INFO]: dootybootyjackso tried to swim in lava
+[20:54:43] [Async Chat Thread - #10/INFO]: <buttlicker6000> why are you drowning just swim tbh[m
+
+[20:54:55] [Async Chat Thread - #10/INFO]: <dootybootyjackso> wash ur ass[m
+
+[20:55:02] [Server thread/INFO]: dootybootyjackso issued server command: /home jack
+[20:55:10] [Server thread/INFO]: dootybootyjackso tried to swim in lava
+[20:55:19] [Async Chat Thread - #10/INFO]: <Kimitra> FAHHH[m
+
+[20:55:44] [Server thread/INFO]: dootybootyjackso issued server command: /home bean
+[20:56:19] [Server thread/INFO]: dootybootyjackso issued server command: /home jack
+[20:56:27] [Server thread/INFO]: dootybootyjackso issued server command: /home jack
+[20:56:35] [Async Chat Thread - #11/INFO]: <Kimitra> FAAAAHAHAHAHH[m
+
+[20:56:36] [Server thread/INFO]: dootybootyjackso tried to swim in lava
+[20:56:49] [Async Chat Thread - #11/INFO]: <jerry> lol[m
+
+[20:57:12] [Async Chat Thread - #11/INFO]: <dootybootyjackso> fuck off[m
+
+[20:57:22] [Server thread/INFO]: dootybootyjackso issued server command: /home jack
+[20:57:30] [Server thread/INFO]: dootybootyjackso tried to swim in lava
+[20:57:41] [Server thread/INFO]: Addi lost connection: Disconnected
+[20:57:41] [Server thread/INFO]: Addi left the game.
+[20:57:47] [Server thread/INFO]: buttlicker6000 issued server command: /home fart
+[20:57:56] [Server thread/INFO]: buttlicker6000 lost connection: Disconnected
+[20:57:56] [Server thread/INFO]: buttlicker6000 left the game.
+[20:58:12] [Server thread/INFO]: dootybootyjackso issued server command: /home jack
+[20:58:20] [Server thread/INFO]: dootybootyjackso tried to swim in lava
+[20:58:26] [Async Chat Thread - #12/INFO]: <Kimitra> :3[m
+
+[20:59:08] [Server thread/INFO]: dootybootyjackso issued server command: /home jack
+[20:59:19] [Server thread/INFO]: dootybootyjackso suffocated in a wall
+[20:59:33] [Server thread/INFO]: dootybootyjackso issued server command: /back
+[20:59:38] [Server thread/INFO]: dootybootyjackso issued server command: /back
+[20:59:47] [Server thread/INFO]: Kimitra lost connection: Disconnected
+[20:59:47] [Server thread/INFO]: Kimitra left the game.
+[20:59:54] [Server thread/INFO]: lamm lost connection: Disconnected
+[20:59:54] [Server thread/INFO]: lamm left the game.
+[21:00:01] [Server thread/INFO]: dootybootyjackso lost connection: Disconnected
+[21:00:01] [Server thread/INFO]: dootybootyjackso left the game.
+[21:00:07] [Server thread/INFO]: jerry lost connection: Disconnected
+[21:00:07] [Server thread/INFO]: jerry left the game.
+[21:05:55] [Thread-38/INFO]: UUID of player nude_dude is 14404042-e794-326b-ae99-7e077748fd4e
+[21:05:55] [Server thread/INFO]: nude_dude[/[0:0:0:0:0:0:0:1]:35490] logged in with entity id 39846 at ([world]179.6088393080982, 63.0, 45.85095918403815)
+[21:06:15] [Thread-39/INFO]: UUID of player rodrii_ is f9b3cc3d-cf4c-3e3b-bceb-bcd7b54136ef
+[21:06:15] [Server thread/INFO]: rodrii_[/[0:0:0:0:0:0:0:1]:56366] logged in with entity id 39935 at ([world]177.87647134344445, 63.0, 41.44139796866469)
+[21:06:24] [Async Chat Thread - #13/INFO]: <nude_dude> rodrii[m
+
+[21:06:29] [Async Chat Thread - #13/INFO]: <rodrii_> Hello.[m
+
+[21:06:41] [Async Chat Thread - #13/INFO]: <rodrii_> i think[m
+
+[21:06:43] [Async Chat Thread - #13/INFO]: <nude_dude> put the button[m
+
+[21:06:48] [Async Chat Thread - #13/INFO]: <rodrii_> not rn[m
+
+[21:07:02] [Async Chat Thread - #13/INFO]: <nude_dude> oh[m
+
+[21:08:05] [Server thread/INFO]: nude_dude lost connection: Disconnected
+[21:08:05] [Server thread/INFO]: nude_dude left the game.
+[21:11:52] [Server thread/INFO]: rodrii_ issued server command: /clear
+[21:11:52] [Server thread/INFO]: [rodrii_: Cleared the inventory of rodrii_, removing 3 items]
+[21:12:33] [Server thread/INFO]: rodrii_ issued server command: /give @p barrier
+[21:12:33] [Server thread/INFO]: [rodrii_: Given [Barrier] * 1 to rodrii_]
+[21:12:51] [Server thread/INFO]: rodrii_ issued server command: /clear
+[21:12:51] [Server thread/INFO]: [rodrii_: Cleared the inventory of rodrii_, removing 5 items]
+[21:13:22] [Server thread/INFO]: rodrii_ issued server command: /clear
+[21:13:22] [Server thread/INFO]: [rodrii_: Cleared the inventory of rodrii_, removing 4 items]
+[21:13:44] [Server thread/INFO]: rodrii_ issued server command: /clear
+[21:13:44] [Server thread/INFO]: [rodrii_: Cleared the inventory of rodrii_, removing 1 items]
+[21:14:12] [Thread-40/INFO]: UUID of player jerry is 31133209-5316-305c-9a61-ddf61c0c9482
+[21:14:12] [Server thread/INFO]: jerry[/[0:0:0:0:0:0:0:1]:55410] logged in with entity id 40494 at ([world]-2467.6038988751416, 58.0, -5741.326985501858)
+[21:14:16] [Server thread/INFO]: rodrii_ issued server command: /time set midnight
+[21:14:16] [Server thread/INFO]: [rodrii_: 'midnight' is not a valid number]
+[21:14:19] [Server thread/INFO]: rodrii_ issued server command: /time set 15000
+[21:14:19] [Server thread/INFO]: [rodrii_: Set the time to 15000]
+[21:14:24] [Async Chat Thread - #14/INFO]: <rodrii_> hi jerry[m
+
+[21:14:25] [Async Chat Thread - #14/INFO]: <rodrii_> i thinl[m
+
+[21:14:26] [Async Chat Thread - #14/INFO]: <jerry> hi[m
+
+[21:14:27] [Async Chat Thread - #14/INFO]: <rodrii_> i thinlthink[m
+
+[21:14:29] [Async Chat Thread - #14/INFO]: <rodrii_> think[m
+
+[21:14:39] [Async Chat Thread - #14/INFO]: <rodrii_> can i tp u to me[m
+
+[21:14:43] [Async Chat Thread - #14/INFO]: <jerry> yes[m
+
+[21:14:51] [Server thread/INFO]: rodrii_ issued server command: /tp jerry @p
+[21:14:51] [Server thread/INFO]: [rodrii_: Teleported jerry to rodrii_]
+[21:14:58] [Async Chat Thread - #14/INFO]: <rodrii_> spawner[m
+
+[21:15:06] [Async Chat Thread - #14/INFO]: <rodrii_> its pretty much done[m
+
+[21:15:06] [Async Chat Thread - #14/INFO]: <jerry> amazing actually[m
+
+[21:15:12] [Async Chat Thread - #14/INFO]: <rodrii_> but ima open it tmr[m
+
+[21:15:26] [Async Chat Thread - #14/INFO]: <jerry> i expanded cow farm and bred them a few times[m
+
+[21:15:32] [Async Chat Thread - #14/INFO]: <rodrii_> since there is no point rn[m
+
+[21:15:34] [Async Chat Thread - #14/INFO]: <rodrii_> eggcellent[m
+
+[21:15:39] [Async Chat Thread - #14/INFO]: <jerry> did u see[m
+
+[21:15:43] [Async Chat Thread - #14/INFO]: <rodrii_> no[m
+
+[21:15:46] [Server thread/INFO]: jerry issued server command: /how many there are
+[21:15:55] [Async Chat Thread - #14/INFO]: <rodrii_> stay here so u can tpa me[m
+
+[21:15:57] [Async Chat Thread - #14/INFO]: <jerry> theres so many baby cows[m
+
+[21:16:05] [Async Chat Thread - #14/INFO]: <rodrii_> i need to make a home at spawn[m
+
+[21:16:05] [Async Chat Thread - #14/INFO]: <jerry> ok[m
+
+[21:16:07] [Server thread/INFO]: rodrii_ lost connection: Disconnected
+[21:16:07] [Server thread/INFO]: rodrii_ left the game.
+[21:16:14] [Thread-41/INFO]: UUID of player rodrii_survival is a475e5d9-2f33-3d6c-8856-f961ec012fc3
+[21:16:14] [Server thread/INFO]: rodrii_survival[/[0:0:0:0:0:0:0:1]:40874] logged in with entity id 40840 at ([world]-2466.8734934041518, 58.0, -5752.109670851137)
+[21:16:16] [Server thread/INFO]: jerry issued server command: /home spawner
+[21:16:21] [Server thread/INFO]: jerry issued server command: /sethome spawner
+[21:17:04] [Async Chat Thread - #14/INFO]: <rodrii_survival> wow[m
+
+[21:17:19] [Server thread/INFO]: rodrii_survival issued server command: /tpa jerry
+[21:17:19] [Server thread/INFO]: rodrii_survival issued server command: /tpa jerry
+[21:17:20] [Server thread/INFO]: jerry issued server command: /tpaccept
+[21:17:23] [Async Chat Thread - #14/INFO]: <rodrii_survival> no no[m
+
+[21:17:27] [Async Chat Thread - #14/INFO]: <rodrii_survival> or yes[m
+
+[21:17:30] [Async Chat Thread - #14/INFO]: <rodrii_survival> nvnm yes[m
+
+[21:17:41] [Server thread/INFO]: jerry issued server command: /delhome jerryg
+[21:17:49] [Server thread/INFO]: jerry issued server command: /sethome spawner
+[21:17:50] [Server thread/INFO]: rodrii_survival issued server command: /home spawn
+[21:17:56] [Server thread/INFO]: rodrii_survival issued server command: /sethome spawn
+[21:17:58] [Async Chat Thread - #14/INFO]: <rodrii_survival> there we are[m
+
+[21:18:04] [Server thread/INFO]: jerry issued server command: /home jerry
+[21:18:06] [Server thread/INFO]: rodrii_survival issued server command: /home the
+[21:18:16] [Server thread/WARN]: rodrii_survival moved wrongly!
+[21:19:04] [Async Chat Thread - #15/INFO]: <rodrii_survival> uhhhhhhhhhhhhhhhhhhhh[m
+
+[21:19:22] [Async Chat Thread - #15/INFO]: <rodrii_survival> son[m
+
+[21:19:23] [Async Chat Thread - #15/INFO]: <jerry> NO[m
+
+[21:19:35] [Async Chat Thread - #15/INFO]: <rodrii_survival> that easy[m
+
+[21:19:55] [Async Chat Thread - #15/INFO]: <rodrii_survival> lol[m
+
+[21:20:22] [Async Chat Thread - #15/INFO]: <rodrii_survival> we have enough to kill some[m
+
+[21:20:29] [Async Chat Thread - #15/INFO]: <jerry> WAIT[m
+
+[21:20:58] [Async Chat Thread - #15/INFO]: <jerry> ok[m
+
+[21:21:35] [Server thread/INFO]: rodrii_survival issued server command: /home the
+[21:21:58] [Async Chat Thread - #16/INFO]: <rodrii_survival> get my unbrekable chestplate[m
+
+[21:22:02] [Async Chat Thread - #16/INFO]: <rodrii_survival> nvm i got it[m
+
+[21:22:54] [Async Chat Thread - #16/INFO]: <rodrii_survival> bruh[m
+
+[21:23:04] [Async Chat Thread - #16/INFO]: <rodrii_survival> our base is no longer structured properly[m
+
+[21:24:08] [Async Chat Thread - #17/INFO]: <rodrii_survival> do /home[m
+
+[21:24:11] [Async Chat Thread - #17/INFO]: <rodrii_survival> ok[m
+
+[21:24:25] [Async Chat Thread - #17/INFO]: <jerry> huge farm[m
+
+[21:24:55] [Async Chat Thread - #17/INFO]: <rodrii_survival> crazy lag[m
+
+[21:25:12] [Async Chat Thread - #17/INFO]: <rodrii_survival> i have an idea[m
+
+[21:25:24] [Async Chat Thread - #17/INFO]: <rodrii_survival> its possible to make it structured properly again[m
+
+[21:25:25] [Server thread/INFO]: rodrii_survival issued server command: /home the
+[21:26:16] [Async Chat Thread - #17/INFO]: <jerry> were u in the nether at all?[m
+
+[21:26:19] [Thread-42/INFO]: UUID of player lamm is 5cb39085-071d-31e4-9b35-9cf0f1e7f041
+[21:26:19] [Server thread/INFO]: lamm[/[0:0:0:0:0:0:0:1]:50824] logged in with entity id 42730 at ([world]-1278.300000011921, 65.0, -144.6020050876241)
+[21:26:22] [Async Chat Thread - #17/INFO]: <rodrii_survival> no[m
+
+[21:26:34] [Server thread/INFO]: rodrii_survival issued server command: /home the
+[21:26:37] [Async Chat Thread - #17/INFO]: <jerry> theres a long cobblestone unfinished bridge[m
+
+[21:26:47] [Async Chat Thread - #17/INFO]: <rodrii_survival> nice[m
+
+[21:27:25] [Server thread/INFO]: rodrii_survival issued server command: /home the
+[21:27:32] [Thread-43/INFO]: UUID of player diddybootyjackso is 47e11415-d229-3a5c-aa5e-b0e682b43f76
+[21:27:32] [Server thread/INFO]: diddybootyjackso[/[0:0:0:0:0:0:0:1]:41750] logged in with entity id 42984 at ([world]3121.634124991894, 49.0, 922.6538844943817)
+[21:28:50] [Server thread/INFO]: lamm issued server command: /home s
+[21:29:10] [Async Chat Thread - #18/INFO]: <rodrii_survival> alr were good i fixed it[m
+
+[21:30:01] [Server thread/INFO]: lamm issued server command: /home base
+[21:30:05] [Async Chat Thread - #18/INFO]: <diddybootyjackso> rodri what can i get with 9 blaze rodeds[m
+
+[21:30:10] [Async Chat Thread - #18/INFO]: <diddybootyjackso> rods[m
+
+[21:30:31] [Async Chat Thread - #18/INFO]: <rodrii_survival> trade tmr[m
+
+[21:30:42] [Async Chat Thread - #18/INFO]: <diddybootyjackso> u nigar[m
+
+[21:30:42] [Thread-45/INFO]: UUID of player Kimitra is 9c2c1fa9-ab49-3ba5-9557-0e073e657a43
+[21:30:42] [Server thread/INFO]: Kimitra[/[0:0:0:0:0:0:0:1]:49718] logged in with entity id 44397 at ([world]1134.300000011921, 44.0, 1223.699999988079)
+[21:31:01] [Async Chat Thread - #18/INFO]: <rodrii_survival> and easy ban[m
+
+[21:31:05] [Server thread/INFO]: diddybootyjackso issued server command: /come right nknow and give me dimods for 9 blaz rods
+[21:31:07] [Async Chat Thread - #18/INFO]: <rodrii_survival> (/j)[m
+
+[21:31:25] [Server thread/INFO]: rodrii_survival issued server command: /home the
+[21:31:41] [Async Chat Thread - #18/INFO]: <diddybootyjackso> give me dimonds and i give you blaze rods[m
+
+[21:31:47] [Async Chat Thread - #18/INFO]: <rodrii_survival> nga tmr[m
+
+[21:31:54] [Async Chat Thread - #18/INFO]: <diddybootyjackso> u banned[m
+
+[21:31:59] [Async Chat Thread - #18/INFO]: <rodrii_survival> abbreviated[m
+
+[21:32:12] [Async Chat Thread - #18/INFO]: <rodrii_survival> lol[m
+
+[21:32:18] [Async Chat Thread - #18/INFO]: <rodrii_survival> fine in a bit[m
+
+[21:32:53] [Server thread/INFO]: lamm has just earned the achievement [Enchanter]
+[21:34:58] [Async Chat Thread - #19/INFO]: <Kimitra> \[m
+
+[21:35:04] [Async Chat Thread - #19/INFO]: <rodrii_survival> \[m
+
+[21:36:40] [Server thread/INFO]: rodrii_survival lost connection: Disconnected
+[21:36:40] [Server thread/INFO]: rodrii_survival left the game.
+[21:36:48] [Thread-46/INFO]: UUID of player rodrii_ is f9b3cc3d-cf4c-3e3b-bceb-bcd7b54136ef
+[21:36:48] [Server thread/INFO]: rodrii_[/[0:0:0:0:0:0:0:1]:50324] logged in with entity id 45927 at ([world]181.5257819484939, 63.0, 46.98542581556811)
+[21:36:58] [Server thread/INFO]: rodrii_ issued server command: /tp diddybootyjackso
+[21:36:58] [Server thread/INFO]: [rodrii_: Teleported rodrii_ to diddybootyjackso]
+[21:37:12] [Async Chat Thread - #20/INFO]: <rodrii_> wait was it u or bentley who wanted to trade[m
+
+[21:37:20] [Async Chat Thread - #20/INFO]: <rodrii_> also the torches are atrocious[m
+
+[21:37:47] [Async Chat Thread - #20/INFO]: <lamm> rodri il trade you iron for leather[m
+
+[21:37:57] [Server thread/INFO]: rodrii_ issued server command: /tp lamm
+[21:37:57] [Server thread/INFO]: [rodrii_: Teleported rodrii_ to lamm]
+[21:38:04] [Async Chat Thread - #20/INFO]: <rodrii_> hi cro[m
+
+[21:38:21] [Async Chat Thread - #20/INFO]: <rodrii_> son[m
+
+[21:38:35] [Async Chat Thread - #20/INFO]: <diddybootyjackso> rodri trade me[m
+
+[21:38:44] [Async Chat Thread - #20/INFO]: <rodrii_> ok i see the vision[m
+
+[21:38:56] [Async Chat Thread - #20/INFO]: <lamm> however much that will get me[m
+
+[21:38:59] [Server thread/INFO]: rodrii_ issued server command: /clear
+[21:38:59] [Server thread/INFO]: [rodrii_: Cleared the inventory of rodrii_, removing 26 items]
+[21:40:03] [Server thread/INFO]: rodrii_ issued server command: //wand
+[21:40:12] [Server thread/INFO]: rodrii_ issued server command: //replace air
+[21:40:45] [Server thread/INFO]: diddybootyjackso issued server command: /tpa lamm
+[21:41:24] [Server thread/INFO]: diddybootyjackso issued server command: /homes
+[21:41:35] [Server thread/INFO]: diddybootyjackso issued server command: /home base2
+[21:41:50] [Server thread/INFO]: diddybootyjackso issued server command: /delhome base2
+[21:41:54] [Server thread/INFO]: diddybootyjackso issued server command: /home
+[21:41:59] [Server thread/INFO]: diddybootyjackso issued server command: /homes
+[21:42:08] [Server thread/INFO]: diddybootyjackso issued server command: /delhome portal
+[21:42:11] [Server thread/INFO]: diddybootyjackso issued server command: /homes
+[21:42:21] [Server thread/INFO]: diddybootyjackso issued server command: /tpa rodril
+[21:42:36] [Server thread/INFO]: diddybootyjackso issued server command: /home base
+[21:42:51] [Server thread/INFO]: rodrii_ issued server command: /clear
+[21:42:51] [Server thread/INFO]: [rodrii_: Cleared the inventory of rodrii_, removing 11 items]
+[21:43:03] [Server thread/INFO]: rodrii_ issued server command: /clear
+[21:43:03] [Server thread/INFO]: [rodrii_: Cleared the inventory of rodrii_, removing 1 items]
+[21:43:11] [Async Chat Thread - #21/INFO]: <rodrii_> welcome to the[m
+
+[21:43:17] [Server thread/INFO]: rodrii_ issued server command: /tell lamm meth lab
+[21:43:23] [Async Chat Thread - #21/INFO]: <rodrii_> what can i get for u today[m
+
+[21:43:23] [Async Chat Thread - #22/INFO]: <rodrii_> what can i get for u today[m
+
+[21:43:28] [Async Chat Thread - #22/INFO]: <lamm> 2 lb[m
+
+[21:43:31] [Async Chat Thread - #22/INFO]: <rodrii_> bet[m
+
+[21:43:33] [Async Chat Thread - #22/INFO]: <diddybootyjackso> why you give him a meth lab and not me[m
+
+[21:44:14] [Server thread/INFO]: rodrii_ issued server command: /clear
+[21:44:14] [Server thread/INFO]: [rodrii_: Cleared the inventory of rodrii_, removing 105 items]
+[21:44:43] [Async Chat Thread - #23/INFO]: <rodrii_> u are the sucessor[m
+
+[21:44:47] [Async Chat Thread - #23/INFO]: <rodrii_> of this lab[m
+
+[21:44:47] [Async Chat Thread - #23/INFO]: <lamm> alr[m
+
+[21:45:02] [Async Chat Thread - #23/INFO]: <diddybootyjackso> trade rodri[m
+
+[21:45:25] [Server thread/INFO]: rodrii_ issued server command: /clear
+[21:45:25] [Server thread/INFO]: [rodrii_: Cleared the inventory of rodrii_, removing 129 items]
+[21:45:36] [Server thread/INFO]: rodrii_ issued server command: /tp diddybootyjackso
+[21:45:36] [Server thread/INFO]: [rodrii_: Teleported rodrii_ to diddybootyjackso]
+[21:45:51] [Async Chat Thread - #23/INFO]: <rodrii_> for what[m
+
+[21:45:57] [Server thread/INFO]: diddybootyjackso issued server command: /dimonds
+[21:45:59] [Server thread/INFO]: rodrii_ issued server command: //wand
+[21:46:01] [Async Chat Thread - #23/INFO]: <diddybootyjackso> dimonds[m
+
+[21:46:06] [Async Chat Thread - #23/INFO]: <rodrii_> ok gimme a second[m
+
+[21:46:28] [Server thread/INFO]: lamm has just earned the achievement [Librarian]
+[21:46:33] [Server thread/INFO]: rodrii_ issued server command: //replace air
+[21:46:43] [Async Chat Thread - #23/INFO]: <diddybootyjackso> what[m
+
+[21:46:54] [Server thread/INFO]: rodrii_ issued server command: //replace stone
+[21:47:13] [Server thread/INFO]: rodrii_ issued server command: //replace stone
+[21:47:19] [Server thread/INFO]: rodrii_ issued server command: //replace stone
+[21:47:25] [Server thread/INFO]: rodrii_ issued server command: //replace stone
+[21:48:31] [Server thread/INFO]: rodrii_ issued server command: //replace stone_bricks
+[21:48:34] [Server thread/INFO]: rodrii_ issued server command: //replace stone_bricks
+[21:48:35] [Async Chat Thread - #24/INFO]: <diddybootyjackso> wud[m
+
+[21:48:36] [Server thread/INFO]: rodrii_ issued server command: //replace stone_bricks
+[21:48:40] [Server thread/INFO]: rodrii_ issued server command: //replace stone_bricks
+[21:48:48] [Server thread/INFO]: rodrii_ issued server command: //replace stone
+[21:49:17] [Server thread/INFO]: jerry lost connection: Disconnected
+[21:49:17] [Server thread/INFO]: jerry left the game.
+[21:49:49] [Server thread/INFO]: rodrii_ issued server command: /clear
+[21:49:49] [Server thread/INFO]: [rodrii_: Cleared the inventory of rodrii_, removing 16 items]
+[21:51:16] [Async Chat Thread - #25/INFO]: <rodrii_> hi do u have an appointment[m
+
+[21:51:17] [Server thread/INFO]: rodrii_ issued server command: /clear
+[21:51:17] [Server thread/INFO]: [rodrii_: Cleared the inventory of rodrii_, removing 69 items]
+[21:51:25] [Server thread/INFO]: lamm issued server command: /home base
+[21:51:29] [Async Chat Thread - #25/INFO]: <diddybootyjackso> no[m
+
+[21:51:36] [Async Chat Thread - #25/INFO]: <diddybootyjackso> give me my dimonds[m
+
+[21:51:40] [Async Chat Thread - #25/INFO]: <rodrii_> make one here[m
+
+[21:51:55] [Server thread/INFO]: lamm lost connection: Internal Exception: java.net.SocketException: Connection reset
+[21:51:55] [Server thread/INFO]: lamm left the game.
+[21:51:55] [Server thread/INFO]: Kimitra issued server command: /home mine
+[21:51:58] [Async Chat Thread - #25/INFO]: <diddybootyjackso> ea[m
+
+[21:52:25] [Server thread/INFO]: Kimitra lost connection: Disconnected
+[21:52:25] [Server thread/INFO]: Kimitra left the game.
+[21:52:27] [Async Chat Thread - #25/INFO]: <rodrii_> still counts tho[m
+
+[21:52:30] [Async Chat Thread - #25/INFO]: <rodrii_> ok lemme seeee[m
+
+[21:52:32] [Async Chat Thread - #25/INFO]: <rodrii_> mhm[m
+
+[21:52:35] [Async Chat Thread - #25/INFO]: <rodrii_> u had the blaze rods[m
+
+[21:52:35] [Async Chat Thread - #26/INFO]: <rodrii_> u had the blaze rods[m
+
+[21:52:37] [Async Chat Thread - #26/INFO]: <rodrii_> ok[m
+
+[21:52:42] [Async Chat Thread - #26/INFO]: <diddybootyjackso> had li 9[m
+
+[21:52:53] [Server thread/INFO]: rodrii_ issued server command: /clear
+[21:52:53] [Server thread/INFO]: [rodrii_: Cleared the inventory of rodrii_, removing 31 items]
+[21:52:57] [Async Chat Thread - #26/INFO]: <diddybootyjackso> ok]wwww[m
+
+[21:53:01] [Async Chat Thread - #26/INFO]: <rodrii_> bye[m
+
+[21:53:08] [Async Chat Thread - #26/INFO]: <rodrii_> DONT COME IN HERE[m
+
+[21:53:13] [Async Chat Thread - #26/INFO]: <diddybootyjackso> no[m
+
+[21:53:14] [Async Chat Thread - #26/INFO]: <rodrii_> OR I BLOW THIS PLACE UP[m
+
+[21:53:19] [Server thread/INFO]: rodrii_ issued server command: /clear
+[21:53:19] [Server thread/INFO]: [rodrii_: Cleared the inventory of rodrii_, removing 2 items]
+[21:53:21] [Server thread/INFO]: rodrii_ lost connection: Disconnected
+[21:53:21] [Server thread/INFO]: rodrii_ left the game.
+[21:54:16] [Server thread/INFO]: diddybootyjackso lost connection: Disconnected
+[21:54:16] [Server thread/INFO]: diddybootyjackso left the game.
