@@ -12,6 +12,30 @@
     "bypassesPlayerLimit": false
   },
   {
+    "uuid": "2a1dbdad-4c67-3be9-94f7-29e916d930b4",
+    "name": "@a",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "da29211b-63ed-3a06-9070-eefa49a44fc0",
+    "name": "@e",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "7b26b166-2024-3cef-b53f-2da5c1068f35",
+    "name": "@p",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "31133209-5316-305c-9a61-ddf61c0c9482",
+    "name": "jerry",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
     "uuid": "751b4c34-2b84-3d23-b5f8-38d7c4559ee7",
     "name": "jerry_",
     "level": 4,
