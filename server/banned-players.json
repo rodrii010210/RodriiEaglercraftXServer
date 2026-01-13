@@ -1,1 +1,42 @@
-[]
+[
+  {
+    "uuid": "3f98b002-7898-3562-90c3-c7a7ad3a2ff2",
+    "name": "Chris_c_57",
+    "created": "2026-01-13 18:25:18 +0000",
+    "source": "nude_dude",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "519c586d-c701-3e08-b14e-66b40a2f9b6d",
+    "name": "cooldog123",
+    "created": "2026-01-13 19:58:23 +0000",
+    "source": "rodrii_",
+    "expires": "forever",
+    "reason": "sybau"
+  },
+  {
+    "uuid": "14404042-e794-326b-ae99-7e077748fd4e",
+    "name": "nude_dude",
+    "created": "2026-01-13 20:06:02 +0000",
+    "source": "idk",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "c544e4a9-aca6-347e-935d-749530125008",
+    "name": "bigcuck_67",
+    "created": "2026-01-13 18:19:55 +0000",
+    "source": "rodrii_",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "751b4c34-2b84-3d23-b5f8-38d7c4559ee7",
+    "name": "jerry_",
+    "created": "2026-01-13 18:28:50 +0000",
+    "source": "nude_dude",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  }
+]
